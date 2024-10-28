@@ -1,8 +1,5 @@
-# PBI - especialização em Análise e Ciência de Dados
 
-Repositório da disciplina de Machine Learning, ministrado em out/2024-nov/2024 na UFN.
-
-## Primeiro dashboard (análise de vendas em uma Coffee Store)
+# Primeiro dashboard (análise de vendas em uma Coffee Store)
 
 > **Objetivo:**
 
@@ -25,4 +22,3 @@ Extrair insights para uma Coffee Store, levando em conta dados históricos de ve
 5. Quais são os produtos de maior ticket? eles têm vendido bem? devem ser descontinuados?
 6. Qual a tendência de vendas nos últimos 7 dias?
 7. Quais produtos tem performado melhor? existem segmentos distintos?
-

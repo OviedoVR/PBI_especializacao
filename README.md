@@ -2,7 +2,7 @@
 
 Repositório da disciplina de Machine Learning, ministrado em out/2024-nov/2024 na UFN.
 
-Tópicos:
+> **Tópicos:**
 
 1. Visão geral do PBI (contexto, Power Query, modelagem de dados)
 2. Conectar bases de dados ao PBI / Primeiro dashboard
