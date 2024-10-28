@@ -2,27 +2,17 @@
 
 Repositório da disciplina de Machine Learning, ministrado em out/2024-nov/2024 na UFN.
 
-## Primeiro dashboard (análise de vendas em uma Coffee Store)
+Tópicos:
 
-> **Objetivo:**
-
-Extrair insights para uma Coffee Store, levando em conta dados históricos de vendas.
-
-> **Contexto:**
-
-- Período: 7 dias
-- Filiais: 3 (Hell's Kitchen, Lower Manhattan, Astoria)
-- Categorias de produto: 9
-- Tipos de produtos: 26
-- Produtos distintos: 71
-
-> **Perguntas de negócio:**
-
-1. Qual foi o faturamento nos últimos 7 dias?
-2. Qual o ticket médio?
-3. Quais categorias trazem maior parte dos resultados?
-4. Ranking de produtos por receita.
-5. Quais são os produtos de maior ticket? eles têm vendido bem? devem ser descontinuados?
-6. Qual a tendência de vendas nos últimos 7 dias?
-7. Quais produtos tem performado melhor? existem segmentos distintos?
-
+1. Visão geral do PBI (contexto, Power Query, modelagem de dados)
+2. Conectar bases de dados ao PBI / Primeiro dashboard
+3. Power Query (transformação de dados e ETL)
+4. Modelagem relacional
+5. Visuais (gráficos)
+6. Dica de ferramenta
+7. Drill-up e drill-down
+8. Funções DAX e medidas rápidas
+9. Tabela calendário
+10. Visuais de IA
+11. Editar interações entre gráficos; botões; drill-trhough
+12. Layout de dashboards; publicação e compartilhamento.
