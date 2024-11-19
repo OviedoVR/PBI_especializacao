@@ -1,6 +1,6 @@
 # PBI - especialização em Análise e Ciência de Dados
 
-Repositório da disciplina de Machine Learning, ministrado em out/2024-nov/2024 na UFN.
+Repositório da disciplina de Power Bi, ministrado em nov/2024 na UFN.
 
 > **Tópicos:**
 
