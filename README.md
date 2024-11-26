@@ -1,6 +1,6 @@
 # PBI - especialização em Análise e Ciência de Dados
 
-Repositório da disciplina de Power Bi, ministrado em nov/2024 na UFN.
+Repositório da disciplina de Power BI, ministrado em nov/2024 na UFN.
 
 > **Tópicos:**
 
@@ -11,8 +11,7 @@ Repositório da disciplina de Power Bi, ministrado em nov/2024 na UFN.
 5. Visuais (gráficos)
 6. Dica de ferramenta
 7. Drill-up e drill-down
-8. Funções DAX e medidas rápidas
-9. Tabela calendário
-10. Visuais de IA
-11. Editar interações entre gráficos; botões; drill-trhough
-12. Layout de dashboards; publicação e compartilhamento.
+8. Funções DAX, tabela calendáriom e medidas rápidas
+9. Visuais de IA
+10. Editar interações entre gráficos; botões.
+11. Layout de dashboards; publicação e compartilhamento.

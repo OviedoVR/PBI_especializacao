@@ -12,7 +12,7 @@ Criando com DAX:
 
 1. Vá para a guia "Modelagem".
 2. Selecione "Nova Tabela".
-3. Cole o código acima na barra de fórmulas e ajuste as datas de início e fim conforme necessário.
+3. Cole o código abaixo na barra de fórmulas e ajuste as datas de início e fim conforme necessário.
 
 ```dax
 CalendarTable = 
