@@ -1,0 +1,12 @@
+# Calcular a média por cluster:
+
+Avg_spent_by_cluster = CALCULATE(AVERAGE(segmented_customers[Spent]), ALLEXCEPT(segmented_customers, segmented_customers[Cluster]))
+
+# Classificar os clientes dentro de cada cluster:
+
+top_customers_within_cluster = 
+IF(
+    segmented_customers[Spent] >= [Avg_spent_by_cluster],
+    "Top",
+    "Ordinary"
+)
