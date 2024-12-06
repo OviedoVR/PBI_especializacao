@@ -1,0 +1,31 @@
+Exemplos de DAX (Base de dados bikes)
+------------------------------------------------
+
+CALCULATE
+  1. Total de vendas (un). para a bike tipo 'Mountain' (CALCULATE);
+  2. Total de vendas (un). para a bike tipo 'Mountain' e material 'Carbon' (CALCULATE).
+
+FUNÇÕES ACUMULATIVAS
+  1. Unidades vendidas (acumulado mês) (CALCULATE e DATESMTD);
+  2. Unidades vendidas (período anterior) (CALCULATE e  SAMEPERIODLASTYEAR.
+
+FUNÇÕES DE DATA
+  1. Diferença entre duas datas (DATEDIFF);
+  2. Dias na base de dados? (DATEDIFF, MIN e MAX) 
+
+FUNÇÕES ITERANTES:
+1. Calcular receita total por categoria e material (tabela) (SUMEX);
+2. AVERAGEX, MINX, MAXX
+
+FUNÇÕES LÓGICAS:
+  1. IF/ELSE/IFERROR
+  2. Criar uma coluna de desconto com base na quantidade vendida por ordem (SWITCH)
+
+FUNÇÕES MATEMÁTICAS:
+  1. MIN, MAX, AVERAGE, MEDIAN, PERCENTILE, VAR, STDEV,  SUM, COUNT, DISTINCTCOUNT,
+      COUNTBLANK, COUNTA
+
+FITLRO:
+  1. FILTER(<tabela>, <expressão>) //usado junto com o CALCULATE
+  2. ALLEXCEPT(<tabela>,<col>) //ignora todos os filtros, retorna todas as linhas da tabela 
+  3. ALLEXCEPT(<tabela>,<col>) //ignora todos os filtros, exceto a coluna 

@@ -1,16 +1,8 @@
-Receita (moeda não-padronizada):
+Exemplos de DAX
 
-```
-Revenue = sales[Quantity] * (RELATED(products[Unit Price USD]) - RELATED(products[Unit Cost USD]))
-```
+Total de vendas (un). para a bike tipo 'Mountain'.
+- CALCULTE
 
-Receita (padronizada em dólar):
+Total de vendas (un). para a bike tipo 'Mountain' e material 'Carbon'.
+- CALCULTE
 
-```
-Revenue_USD = SWITCH(
-    TRUE(),
-    sales[Currency Code] <> "USD",
-    sales[Revenue] * RELATED(exch_avg_period[Avg_rate]),
-    sales[Revenue]
-)
-```
