@@ -1,0 +1,16 @@
+Receita (moeda não-padronizada):
+
+```
+Revenue = sales[Quantity] * (RELATED(products[Unit Price USD]) - RELATED(products[Unit Cost USD]))
+```
+
+Receita (padronizada em dólar):
+
+```
+Revenue_USD = SWITCH(
+    TRUE(),
+    sales[Currency Code] <> "USD",
+    sales[Revenue] * RELATED(exch_avg_period[Avg_rate]),
+    sales[Revenue]
+)
+```

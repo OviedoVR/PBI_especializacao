@@ -23,3 +23,26 @@ ai banco de dados criado, já que temos múltiplas tabelas.
 3. Criar pasta no banco de dados
 4. Subir tabelas (com opção "detectar schema")
 5. Conectar os dados no Power BI (pode ser via import direto ou query)
+
+
+## DAX utilizada na conversão de moeda (padronização em USD)
+
+```
+Revenue_USD = SWITCH(
+    TRUE(),
+    sales[Currency Code] <> "USD",
+    sales[Revenue] * RELATED(exch_avg_period[Avg_rate]),
+    sales[Revenue]
+)
+```
+
+Lógica (neste casso podemos utiliza várias condições, se necessário):
+
+```
+Revenue_USD = SWITCH(
+    TRUE(),
+    <expressao>, 
+    <resultado>,
+    <else>
+)
+```
